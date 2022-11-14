@@ -3,7 +3,7 @@ body {
 }
 
 button {
-  height: 150px;
+  height: 50px;
   width: 150px;
   border-radius: 32px;
   margin-top: 50px;
@@ -28,4 +28,11 @@ button h1{
   font-weight: 30px;
   font-size: 15px;
   line-height: 44px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
 }
