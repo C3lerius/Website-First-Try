@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(93.98deg, #2340b2 0%, #2f9d56 100%);
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 32px;
+  margin-top: 50px;
+  margin-left: 600px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: #cd2d2d;
+  border: none;
+}
+
+button:hover {
+  background-color: #4caf4fa0;
+  color: white;
+}
+
+button h1{
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.10em;
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 30px;
+  font-size: 15px;
+  line-height: 44px;
+}
