@@ -1,0 +1,22 @@
+body {
+  background-color: grey;
+}
+
+.card {
+  border: 2px solid white;
+  border-width: 1px;
+  border-radius: 15px;
+  max-height: 220px;
+  max-width: 220px;
+  line-height: 13px;
+  background-color: white;
+  border-left: 10px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+}

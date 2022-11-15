@@ -5,11 +5,13 @@ const data = {
 };
 
 const card = `
-  <div class="card>
-    <h2>Pays : ${data.country}</2>
+  <div class="card">
+    <h2>Pays : ${data.country}</h2>
     <p>Population : ${data.population}</p>
-    <p>Language(s) : ${data.lang}</p>
+    <p>Langue(s) : ${data.lang}</p>
   </div>
 `
 
-document.querySelector('.container').innerHTML = card;
+// document.querySelector('.container').innerHTML = card;
+
+document.querySelector('.container').insertAdjacentHTML('beforeend', card)
